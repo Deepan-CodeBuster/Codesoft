@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/mathematics-background-geometric-frame-modern-education-design-vector_53876-156362.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 20px;
+    text-align: center; /* Center align the calculator content */
+}
+
+.calculator-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.display {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    text-align: right;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.operator {
+    background-color: #f39c12;
+    color: #fff;
+    font-weight: bold;
+}
+
+button.operator:hover {
+    background-color: #e67e22;
+}
+
+button.clear {
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+}
+
+button.clear:hover {
+    background-color: #c0392b;
+}
+
+button.equals {
+    background-color: #2ecc71;
+    color: #fff;
+    font-weight: bold;
+}
+
+button.equals:hover {
+    background-color: #27ae60;
+}
+
+button.number {
+    background-color: #3498db;
+    color: #fff;
+}
+
+button.number:hover {
+    background-color: #2980b9;
+}
